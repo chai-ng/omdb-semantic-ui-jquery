@@ -1,0 +1,11 @@
+h1.header {
+    margin-top: 2em !important;
+}
+
+.ui.segment.selection {
+    padding-bottom: 1em;
+}
+
+.history.icon {
+    padding: 1em 0em;
+}

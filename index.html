@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="semantic/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="semantic/semantic.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ui left sidebar vertical menu">
+        <a class="item header">Your history</a>
+    </div>
+    <div class="pusher">
+        <div class="ui container">
+            <i class="history grey big icon link"></i>
+            <h1 class="ui center aligned header">Movie Hunter</h1>
+            
+            <form class="ui fluid big action icon input search">
+                <!-- <i class="search left icon"></i> -->
+                <input type="text" placeholder="Search a movie...">
+                <button class="ui button">Search</button>
+            </form>
+            
+            <div class="ui very relaxed middle aligned selection list results"></div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
